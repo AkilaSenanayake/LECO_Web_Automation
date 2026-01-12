@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Login Test Cases">
+
+        <classes>
+            <class name="Login.Login_Page">
+                <methods>
+                    <include name="LECO_LP_WEB_001"/>
+                    <include name="LECO_LP_WEB_002__003__004"/>
+                    <include name="LECO_LP_WEB_006"/>
+                </methods>
+            </class>
+            <class name="Login.FPW_Page">
+                <methods>
+                    <include name="LECP_LP_WEB_007"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
